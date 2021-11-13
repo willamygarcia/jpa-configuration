@@ -5,7 +5,7 @@
 </p>
 
 <p>No código abaixo temos a configuração necessária para que possamos rodar nosso projeto usando a especificação JPA</p>
-
+<DIV>
 <pre>
 
   <persistence-unit name="nome-do-banco ou o nome de sua preferencia">
@@ -25,3 +25,4 @@
     </persistence-unit>
     
 </pre>
+</DIV>
