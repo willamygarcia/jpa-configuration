@@ -1,2 +1,2 @@
-# jpa-configuration\
+# CONFIGURAÇÕES NECESSÁRIAS PARA O JPA
 
