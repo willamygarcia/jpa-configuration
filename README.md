@@ -7,6 +7,7 @@
 <p>No código abaixo temos a configuração necessária para que possamos rodar nosso projeto usando a especificação JPA</p>
 
 <pre>
+
   <persistence-unit name="nome-do-banco ou o nome de sua preferencia">
       <provider>org.hibernate.ejb.HibernatePersistence</provider>
       <class>o paconte com o nome da classe entidade para persistencia</class>
@@ -22,4 +23,5 @@
          <property name="hibernate.format_sql" value="true"/>
       </properties>
     </persistence-unit>
+    
 </pre>
