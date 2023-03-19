@@ -37,8 +37,8 @@
 # CONFIGURAÇÕES PARA DIVERSOS BANCOS DE DADOS #
 
 ######## MySql ########
-Driver = com.microsoft.sqlserver.jdbc.SQLServerDriver
-Url = jdbc:sqlserver://localhost:1433;databaseName=financas
+Driver = com.mysql.jdbc.Driver
+Url = jdbc:mysql://localhost/curso_java
 Dialect = org.hibernate.dialect.MySQL57Dialect
 
 ######## PostGreSql ########
@@ -47,8 +47,8 @@ Url = jdbc:postgresql://localhost:5432/banco-de-dados
 Dialect = org.hibernate.dialect.PostgreSQL95Dialect
 
 ######## MS Sql-Server ########
-Driver = org.postgresql.Driver
-Url = jdbc:postgresql://localhost:5432/banco-de-dados
+Driver = com.microsoft.sqlserver.jdbc.SQLServerDriver
+Url = jdbc:sqlserver://localhost:1433;databaseName=financas
 Dialect = org.hibernate.dialect.SQLServerDialect
 
 ######## Oracle ########
