@@ -1,0 +1,36 @@
+######### application.properties #########
+
+spring.profiles.active=dev
+ 
+server.port=8080
+spring.http.encoding.enabled=true
+spring.http.encoding.charset=UTF-8
+ 
+
+######### application-dev.properties #########
+spring.port=8080
+spring.datasource.url=jdbc:h2:mem:tarefas
+spring.datasource.driveClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.datasource.platform=org.hibernate.dialect.H2Dialect
+
+spring.h2.console.enable=true
+spring.h2.console.path=/h2
+#Desbilita Acesso Remoto do H2
+spring.h2.console.settings.web-allow-others=false
+
+######### application-prod.properties #########
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/banco-dev
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+spring.datasource.driver-class-name=org.postgresql.Driver
+ 
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+ 
+server.port=8081
+ 
+logging.level.br.com.despesas=DEBUG
+
